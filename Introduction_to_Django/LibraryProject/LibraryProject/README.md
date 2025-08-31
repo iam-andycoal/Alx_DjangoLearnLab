@@ -1,1 +1,2 @@
-An introductory exercise into Django - a popular Python web framework.
+An introductory project into Django - a popular Python web framework.
+
