@@ -28,3 +28,5 @@ urlpatterns += [
     path('librarian-area/', librarian_view, name='librarian_view'),
     path('member-area/', member_view, name='member_view'),
 ]
+
+["add_book/", "edit_book/", "delete_book"]
