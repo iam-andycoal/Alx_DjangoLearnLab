@@ -6,7 +6,7 @@ urlpatterns = [
     path('library/<int:pk>/', LibraryDetailView.as_view(), name='library_detail'),
 ]
 
-
+views.register
 from django.urls import path
 from .views import register
 from django.contrib.auth.views import LoginView, LogoutView
