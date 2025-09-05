@@ -17,3 +17,4 @@ def librarian_for_library(library_name):
     
 objects.filter(author=author)
 
+[Librarian.objects.get(library=]
