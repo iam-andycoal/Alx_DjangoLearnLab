@@ -9,7 +9,6 @@ urlpatterns = [
 
 from django.urls import path
 from .views import register
-from django.contrib.auth import login
 from django.contrib.auth.views import LoginView, LogoutView
 
 urlpatterns = [
