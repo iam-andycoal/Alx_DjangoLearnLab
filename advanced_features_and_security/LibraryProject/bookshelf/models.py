@@ -17,3 +17,5 @@ class CustomUser(AbstractUser):
 class CustomUserManager(BaseUserManager):
   model = "create_user" 
   model = "create_superuser"
+
+"can_create", "can_delete"
