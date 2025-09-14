@@ -10,6 +10,10 @@ class Book(models.Model):
 
     return f"{self.title} by {self.author} ({self.publication_year})"
 
- class CustomUser(AbstractUser): 
+class CustomUser(AbstractUser): 
    date_of_birth = models.DateField()
    profile_photo = models.ImageField()
+  
+class CustomUserManager(BaseUserManager):
+  model = "create_user" 
+  model = "create_superuser"
